@@ -13,7 +13,7 @@
     --stranger: #FF0E0E;
     --background: #1D009F;
     --headercolor: linear-gradient(#251351, #2C2381);
-    --lettersfill: rgb(0, 0, 0, 65);
+    --lettersfill: rgb(0 0 0 / 65%);
 
 body{
     background: var(--background);
@@ -24,63 +24,59 @@ body{
 
 header{
     background-image: var(--headercolor);
-    height: 100px;
+    color: var(--letterspage01);
+    height: 150px;
     justify-content: space-around;
     align-content: center;
-    margin-left: -50px;
-    margin-right: -50px;
+    margin-left: px;
+    margin-right: px;
     display: flex;
 }
 
 .logoimg{
-    width: 78px;
-    height: 78px;
+    width: 70px;
+    height: 70px;
     justify-content: center;
     align-items: center;
-    margin-top: 11px;
-    margin-bottom: 11px;
+    margin-top: px;
+    margin-bottom: px;
 }
 
 .headertittle{
-    width: 200px;
-    height: 78px;
+    background-color: var(--lettersfill);
+    width: 344px;
+    height: 56px;
     justify-content: center;
     align-items: center;
     margin-top: 11px;
     margin-bottom: 11px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .divmedias{
-    width: 202px;
-    height: 54x;
+    width: 70px;
+    height: 70px;
     justify-content: space-between;
     align-content: center;
-    margin-top: 23px;
-    margin-bottom: 23px;
+    margin-top: px;
+    margin-bottom: px;
     display: flex;
 }
 
 .page01{
     width: 1440px;
-    height: 800px;
+    height: 900px;
     background-image: url(background01.png);
     background-repeat: no-repeat;
     justify-content: flex-end;
-    align-content: flex-end;
+    align-content: center;
     justify-self: center;
 }
 
 .text01{
-    font-size: 20px; 
-    text-align: center;
-    margin-right: 620px;
-    margin-left: 75px;
-    margin-bottom: 125px;
+    margin-right: 468px;
+    margin-left: 74px;
     background: var(--lettersfill);
+    color: var(--letterspage01);
     display: flex;
 }
 
