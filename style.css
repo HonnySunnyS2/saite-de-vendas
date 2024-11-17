@@ -7,12 +7,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root{
-    --letters:#ffffff;
-    --background: #000000;
-    --headercolor: linear-gradient(#000, #434343);
-    --footer: linear-gradient(#070A16, #000);
-    --lettersfill: rgba(0, 0, 0, 0.3);
-}
+    --letterspage01:#fff;
+    --letterspage02: #000;
+    --sonhadores: #1D009F;
+    --stranger: #FF0E0E;
+    --background: #1D009F;
+    --headercolor: linear-gradient(#251351, #2C2381);
+    --lettersfill: rgb(0, 0, 0, 65);
 
 body{
     background: var(--background);
