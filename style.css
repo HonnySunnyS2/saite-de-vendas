@@ -17,7 +17,7 @@
 
 body{
     background: var(--background);
-    font-family: "Azeret Mono", sans-serif;
+    font-family: "Azeret Mono", monospace;
     justify-content: center;
     align-content: center;
 }
