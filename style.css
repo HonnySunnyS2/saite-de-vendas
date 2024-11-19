@@ -71,7 +71,7 @@ header{
     align-content: center;
 }
 
-.text01{
+.intro{
     margin-right: 468px;
     margin-left: 74px;
     margin-top: 70px;
@@ -80,6 +80,44 @@ header{
     color: var(--letterspage01);
     display: flex;
 }
+
+.firstline{
+    Welcome to White Space, Dreamer!
+}
+
+.secondline{
+    You been here as long as you remember
+}
+
+.options{
+
+}
+
+.door{
+
+}
+
+.redhand{
+    
+}
+
+.butts{
+
+}
+
+.butt01{
+    
+}
+
+.butt02{
+    
+}
+
+.omori{
+    
+}
+
+
 
 .page02{
     width: 1440px;
