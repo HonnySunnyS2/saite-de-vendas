@@ -33,31 +33,23 @@ header{
     display: flex;
 }
 
+.logotittle{
+    background-color: var(--lettersfill);
+    width:1016px;
+    align-items: center;
+    display: flex;
+}
+    
 .logoimg{
     width: 70px;
-    height: 70px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    height: 70px;   
 }
     
 .headertittle{
-    width: 1016px;
     height: 100px;
     align-content: center;
+}
     
-}
-.h eadertittle{
-    background-color: var(--lettersfill);
-    width: 344px;
-    height: 56px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
 .divmedias{
     width: 400px;
     height: 100px;
