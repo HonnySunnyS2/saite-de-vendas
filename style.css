@@ -13,6 +13,8 @@
     --stranger: #FF0E0E;
     --background: #1D009F;
     --headercolor: linear-gradient(#251351, #2C2381);
+    --introback: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(29, 0, 159, 0.4) 100%);
+););
     --lettersfill: rgb(0 0 0 / 65%);
 
 body{
@@ -42,16 +44,18 @@ header{
     
 .logoimg{
     width: 70px;
-    height: 70px;   
+    height: 70px;
+    margin-left: 25px; 
 }
     
 .headertittle{
     height: 100px;
     align-content: center;
+    margin-left: 30px;
 }
     
 .divmedias{
-    width: 400px;
+    width: 350px;
     height: 100px;
     justify-content: space-between;
     align-content: center;
@@ -63,15 +67,16 @@ header{
     height: 750px;
     background-image: url(background01.png);
     background-repeat: no-repeat;
-    justify-content: flex-end;
-    align-content: center;
     justify-self: center;
+    align-content: center;
 }
 
 .text01{
     margin-right: 468px;
     margin-left: 74px;
-    background: var(--lettersfill);
+    margin-top: 70px;
+    margin-bottom: 85px;
+    background: var(--introback);
     color: var(--letterspage01);
     display: flex;
 }
