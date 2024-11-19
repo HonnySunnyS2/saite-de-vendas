@@ -37,8 +37,9 @@ header{
 
 .logotittle{
     background-color: var(--lettersfill);
-    width:1016px;
+    width: 1016px;
     align-items: center;
+    margin-right: 25px;
     display: flex;
 }
     
@@ -62,7 +63,7 @@ header{
     display: flex;
 }
 
-.page01{
+.page01back{
     width: 1440px;
     height: 750px;
     background-image: url(background01.png);
@@ -71,7 +72,13 @@ header{
     align-content: center;
 }
 
+.page01{
+    
+}
+    
 .intro{
+    width: 900px;
+    height: 600px;
     margin-right: 468px;
     margin-left: 74px;
     margin-top: 70px;
@@ -82,7 +89,7 @@ header{
 }
 
 .firstline{
-    Welcome to White Space, Dreamer!
+    
 }
 
 .secondline{
@@ -114,7 +121,8 @@ header{
 }
 
 .omori{
-    
+    width: 473px;
+    height: 458px;
 }
 
 
