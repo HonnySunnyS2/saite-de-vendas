@@ -26,10 +26,10 @@ header{
     background-image: var(--headercolor);
     color: var(--letterspage01);
     height: 150px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: center;
-    margin-left: px;
-    margin-right: px;
+    margin-left: 25px;
+    margin-right: 25px;
     display: flex;
 }
 
@@ -38,8 +38,8 @@ header{
     height: 70px;
     justify-content: center;
     align-items: center;
-    margin-top: px;
-    margin-bottom: px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .headertittle{
@@ -48,16 +48,16 @@ header{
     height: 56px;
     justify-content: center;
     align-items: center;
-    margin-top: 11px;
-    margin-bottom: 11px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .divmedias{
-    width: 70px;
-    height: 70px;
+    width: 400px;
+    height: 100px;
     justify-content: space-between;
     align-content: center;
-    margin-top: px;
+    margin-top: 25px;
     margin-bottom: px;
     display: flex;
 }
