@@ -184,27 +184,24 @@ header{
     width: 1440px;
     height: 900px;
     background-image: url(background02.png);
-    color: var(--letterspage02);
     justify-self: center;
     align-content: center;
 }
 
 .page02content{
-    
+    width: 1440px;
+    height: 850px;
 }
 
 .text02{
+    width: 547px;
     height: 47px;
-    font-size: 22px;
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
-    margin-left: 446px;
-    margin-right: 446px;
-    margin-bottom: 25px;
-    margin-top: 25px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    font-size: 40px;
+    font-style: italic;
+    margin-left: 465px;
+    margin-right: 465px;
+    margin-bottom: 86px;
+    margin-top: 29px;
     display: flex;
 }
 
@@ -212,21 +209,16 @@ header{
     height: 253px;
     color: var(--sonhadores);
     font-size: 20px;
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
-    margin-bottom: 25px;
+    margin-left: 118px;
+    margin-right: 118px;
+    margin-bottom: 86px;
     display: flex;
-}
-
-.dreamer{
-    text-align: center;
-    margin-left: 35px;
-    margin-right: 35px;
 }
 
 .dreamerimg{
     height: 200px;
-    color: var(--letters);
 }
 
 .nomes{
@@ -234,6 +226,14 @@ header{
     text-align: center;
     justify-content: center;
     align-content: center;
+}
+
+stranger{
+    color: var(--stranger);
+}
+
+something{
+    color: var(--letterspage02);
 }
 
 .footer{
