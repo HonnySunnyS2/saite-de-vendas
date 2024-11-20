@@ -73,8 +73,9 @@ header{
 }
 
 .page01{
-    
+    display: flex;
 }
+
 .intro{
     width: 900px;
     height: 600px;
