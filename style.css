@@ -133,34 +133,32 @@ header{
     display: flex;
 }
 
-
-
 .page02{
     width: 1440px;
     height: 900px;
     background-image: url(background02.png);
+    color: var(--letterspage02);
     justify-self: center;
     align-content: center;
 }
 
 .text02{
-    height: 60px;
+    height: 47px;
     font-size: 22px;
     text-align: center;
     justify-content: center;
     justify-items: center;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 446px;
+    margin-right: 446px;
     margin-bottom: 25px;
     margin-top: 25px;
     padding-top: 12px;
     padding-bottom: 12px;
-    background: var(--letterspage02);
     display: flex;
 }
 
-.divalbums{
-    height: 365px;
+.sonhadores{
+    height: 253px;
     color: var(--sonhadores);
     font-size: 20px;
     justify-content: center;
@@ -169,22 +167,19 @@ header{
     display: flex;
 }
 
-.album{
+.dreamer{
     text-align: center;
     margin-left: 35px;
     margin-right: 35px;
-    
 }
 
-.albumsimg{
-    height: 275px;
+.dreamerimg{
+    height: 200px;
     color: var(--letters);
 }
 
-.albumscaption{
+.nomes{
     color: var(--sonhadores);
-    background-color: var(--lettersfill);
-    height: 90px;
     text-align: center;
     justify-content: center;
     align-content: center;
@@ -192,6 +187,7 @@ header{
 
 .footer{
     background-image: var(--footer);
+    color: var(--letterspage01);
     height: 248px;
     justify-content: center;
     align-items: center;
