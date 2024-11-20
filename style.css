@@ -228,12 +228,18 @@ header{
     align-content: center;
 }
 
-stranger{
+.stranger{
     color: var(--stranger);
+    text-align: center;
+    justify-content: center;
+    align-content: center;
 }
 
-something{
+.something{
     color: var(--letterspage02);
+    text-align: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .footer{
