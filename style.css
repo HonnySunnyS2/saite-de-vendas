@@ -197,6 +197,7 @@ header{
     width: 547px;
     height: 47px;
     font-size: 40px;
+    font-weight: lighter;
     font-style: italic;
     margin-left: 465px;
     margin-right: 465px;
@@ -223,23 +224,26 @@ header{
 
 .nomes{
     color: var(--sonhadores);
+    font-size: 32px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
     text-align: center;
-    justify-content: center;
-    align-content: center;
 }
 
 .stranger{
     color: var(--stranger);
+    font-size: 32px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
     text-align: center;
-    justify-content: center;
-    align-content: center;
 }
 
 .something{
     color: var(--letterspage02);
+    font-size: 32px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
     text-align: center;
-    justify-content: center;
-    align-content: center;
 }
 
 .footer{
@@ -252,16 +256,19 @@ header{
 }
 
 .footerlogo{
-    margin-top: 12px;
+    margin-top: 62px;
 }
 
 .moreinfo{
-    padding-top: 6px;
+    font-size: 32px;
+    letter-spacing: 2px;
+    padding-top: 16px;
     padding-bottom: 1px;   
 }
 
 .privacity{
-    padding-top: 1px;
+    font-size: 16px;
+    letter-spacing: 2px;
 }
 
 .link{
