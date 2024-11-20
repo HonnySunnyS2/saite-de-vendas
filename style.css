@@ -71,41 +71,48 @@ header{
     justify-self: center;
     align-content: center;
 }
-
-.page01{
-
-}
     
 .intro{
     width: 900px;
     height: 600px;
-    margin-right: 468px;
     margin-left: 74px;
     margin-top: 70px;
     margin-bottom: 85px;
+    padding-top: 59px;
+    padding-bottom: 42px;
+    padding-left: 33px;
+    padding-right: 33px;
     background: var(--introback);
     color: var(--letterspage01);
     display: flex;
 }
 
 .firstline{
-    
+    width: 833px;
+    height: 47px;
+    justify-self: center;
+    align-items: center;
+    display: flex;
 }
 
 .secondline{
-    You been here as long as you remember
+    width: 833px;
+    height: 47px;
+    margin-bottom: 378px;
 }
 
 .options{
-
+    
 }
 
 .door{
-
+    width: 257px;
+    height: 298px;
 }
 
 .redhand{
-    
+    width: 112px;
+    height: 95px;
 }
 
 .butts{
@@ -123,6 +130,7 @@ header{
 .omori{
     width: 473px;
     height: 458px;
+    display: flex;
 }
 
 
