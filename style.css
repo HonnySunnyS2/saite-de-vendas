@@ -12,6 +12,8 @@
     --background: #1D009F;
     --headercolor: linear-gradient(#251351, #2C2381);
     --introback: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(29, 0, 159, 0.4) 100%);
+    --butt01: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(138, 33, 33, 0.5) 100%);
+    --butt02: rgba(0, 0, 0, 0.5);
     --lettersfill: rgb(0 0 0 / 65%);
 }
 
@@ -157,17 +159,25 @@ header{
     word-spacing: 5px;
     letter-spacing: 3px;
     border: none;
+    color: var(--letterspage01);
+    background: var(--butt01);
 }
 
 .butt02{
     width: 306px;
     height: 82px;
+    font-size: 32px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    border: none;
+    color: var(--letterspage01);
+    background: var(--butt02);
 }
 
 .omori{
     width: 473px;
     height: 458px;
-    display: flex;
+    align-self: center;
 }
 
 .page02{
